@@ -9,7 +9,7 @@ class Agable {
     }
 }
 
-class Company{
+class Company extends Agable{
     constructor(name, taxId, yearEstablished, taxRate){
         super(yearEstablished);
         this.name = name;
@@ -18,7 +18,7 @@ class Company{
     }
 }
 
-class Person{
+class Person extends Agable{
     constructor(name, ssn, birthYear, taxRate){
         super(birthYear);
         this.name = name;
@@ -27,7 +27,7 @@ class Person{
     }
 }
 
-class Car{
+class Car extends Agable{
     constructor(model, vin, year){
         super(year);
         this.name = model;
