@@ -7,10 +7,7 @@ class Agable {
         const currentYear = new Date().getFullYear(); 
         return currentYear - this.year;
     }
-
 }
-
-
 
 class Company{
     constructor(name, taxId, yearEstablished, taxRate){
